@@ -5,7 +5,6 @@ import transporter from "../config/nodemailer.js";
 import Admin from "../models/admin.model.js";
 import mongoose from "mongoose";
 
-console.log('SECRET:', process.env.SENDER_EMAIL, process.env.SECRET_URL_KEY);
 
 const studentRegister = async (req, res) => {
   const {
