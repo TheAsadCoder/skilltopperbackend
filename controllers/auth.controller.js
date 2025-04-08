@@ -439,6 +439,12 @@ const verifyStudent = async (req, res) => {
 
   Congratulations! Your profile has been successfully verified, and you are now officially enrolled in the Frontend Development course at SkillTopper.
 
+  To proceed further, please fill out the following Google Form with your details:
+  🔗 https://forms.gle/8aBp1PzyhVxHkq1N7
+
+  Once we review your submission, you will be added to the official SkillToper Frontend Development – Batch 1 WhatsApp group.
+  We’re excited to have you on board and look forward to supporting you throughout your learning journey with SkillToper.
+
   If you have any questions or need further assistance, please feel free to contact us at ${process.env.SENDER_EMAIL}.
 
   We wish you all the best in your learning journey!
